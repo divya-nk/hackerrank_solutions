@@ -24,3 +24,6 @@ _, enews = int(input()), set(map(int, input().split(' ')))
 _, fnews = int(input()), set(map(int, input().split(' ')))
 
 print(len(enews.difference(fnews)))
+
+# Task: print number of students who have subscribed both:
+print(len(enews.intersection(fnews)))
