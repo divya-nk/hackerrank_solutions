@@ -1,5 +1,7 @@
 '''
-
+# Task:
+Output the symmetric difference integers in ascending order, one per line.
+The term symmetric difference indicates those values that exist in either m or n but do not exist in both.
 '''
 
 M = int(input())
